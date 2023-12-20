@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./styles/output.css";
 
 import List from "./components/List";
-import Header from "./components/header";
+import Header from "./components/Header";
 import { Loading, Request_url } from "./components/Utilites";
 
 import Quran from "./components/Quran";
