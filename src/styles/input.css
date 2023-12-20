@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-white text-black_custom lg:overflow-hidden;
+}
+
+.gradient_color {
+  @apply bg-gradient-to-br from-sky-500 to-emerald-500;
+}
+
+::-webkit-scrollbar {
+  @apply w-2 h-96;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-[#c1c1c1];
+}
