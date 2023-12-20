@@ -9,7 +9,7 @@ function Verses({ verse, surah_name }) {
       </p>
 
       <div className="px-5 mt-3">
-        <h1 className="text-right font-bold text-2xl sm:text-3xl leading-relaxed lg:leading-loose">
+        <h1 className="text-right font-bold text-2xl sm:text-3xl leading-relaxed sm:leading-loose">
           {verse.text.arab}
         </h1>
         <p className="font-medium text-md sm:text-xl lg:text-lg mt-10 text-gray-700">

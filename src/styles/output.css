@@ -807,6 +807,22 @@ video {
   line-height: 1.375;
 }
 
+.leading-loose {
+  line-height: 2;
+}
+
+.leading-\[20px\] {
+  line-height: 20px;
+}
+
+.leading-\[200px\] {
+  line-height: 200px;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -930,6 +946,10 @@ body {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .sm\:leading-loose {
+    line-height: 2;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1017,6 +1037,11 @@ body {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .lg\:leading-loose {
